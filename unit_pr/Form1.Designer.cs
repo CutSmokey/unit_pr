@@ -38,11 +38,8 @@
             this.dtimetb = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tmwrkgb = new System.Windows.Forms.GroupBox();
-            this.addbt = new System.Windows.Forms.Button();
             this.multilbtb = new System.Windows.Forms.TextBox();
             this.multilb = new System.Windows.Forms.Label();
-            this.medictimetb = new System.Windows.Forms.TextBox();
-            this.medictimelb = new System.Windows.Forms.Label();
             this.worktimetb = new System.Windows.Forms.TextBox();
             this.worktimelb = new System.Windows.Forms.Label();
             this.resoultbtn = new System.Windows.Forms.Button();
@@ -147,32 +144,20 @@
             // 
             // tmwrkgb
             // 
-            this.tmwrkgb.Controls.Add(this.addbt);
             this.tmwrkgb.Controls.Add(this.multilbtb);
             this.tmwrkgb.Controls.Add(this.multilb);
-            this.tmwrkgb.Controls.Add(this.medictimetb);
-            this.tmwrkgb.Controls.Add(this.medictimelb);
             this.tmwrkgb.Controls.Add(this.worktimetb);
             this.tmwrkgb.Controls.Add(this.worktimelb);
             this.tmwrkgb.Location = new System.Drawing.Point(200, 18);
             this.tmwrkgb.Name = "tmwrkgb";
-            this.tmwrkgb.Size = new System.Drawing.Size(272, 134);
+            this.tmwrkgb.Size = new System.Drawing.Size(272, 74);
             this.tmwrkgb.TabIndex = 8;
             this.tmwrkgb.TabStop = false;
             this.tmwrkgb.Text = "Рабочее время";
             // 
-            // addbt
-            // 
-            this.addbt.Location = new System.Drawing.Point(18, 101);
-            this.addbt.Name = "addbt";
-            this.addbt.Size = new System.Drawing.Size(244, 23);
-            this.addbt.TabIndex = 9;
-            this.addbt.Text = "Добавить";
-            this.addbt.UseVisualStyleBackColor = true;
-            // 
             // multilbtb
             // 
-            this.multilbtb.Location = new System.Drawing.Point(156, 75);
+            this.multilbtb.Location = new System.Drawing.Point(156, 49);
             this.multilbtb.Name = "multilbtb";
             this.multilbtb.Size = new System.Drawing.Size(106, 20);
             this.multilbtb.TabIndex = 15;
@@ -181,28 +166,11 @@
             // multilb
             // 
             this.multilb.AutoSize = true;
-            this.multilb.Location = new System.Drawing.Point(15, 78);
+            this.multilb.Location = new System.Drawing.Point(15, 52);
             this.multilb.Name = "multilb";
             this.multilb.Size = new System.Drawing.Size(119, 13);
             this.multilb.TabIndex = 14;
             this.multilb.Text = "Коэффициент баллов ";
-            // 
-            // medictimetb
-            // 
-            this.medictimetb.Location = new System.Drawing.Point(156, 49);
-            this.medictimetb.Name = "medictimetb";
-            this.medictimetb.Size = new System.Drawing.Size(106, 20);
-            this.medictimetb.TabIndex = 13;
-            this.medictimetb.Text = "0";
-            // 
-            // medictimelb
-            // 
-            this.medictimelb.AutoSize = true;
-            this.medictimelb.Location = new System.Drawing.Point(15, 52);
-            this.medictimelb.Name = "medictimelb";
-            this.medictimelb.Size = new System.Drawing.Size(143, 13);
-            this.medictimelb.TabIndex = 12;
-            this.medictimelb.Text = "Кол-во взятых больничных";
             // 
             // worktimetb
             // 
@@ -223,7 +191,7 @@
             // 
             // resoultbtn
             // 
-            this.resoultbtn.Location = new System.Drawing.Point(200, 158);
+            this.resoultbtn.Location = new System.Drawing.Point(200, 98);
             this.resoultbtn.Name = "resoultbtn";
             this.resoultbtn.Size = new System.Drawing.Size(272, 25);
             this.resoultbtn.TabIndex = 9;
@@ -234,11 +202,10 @@
             // rsl
             // 
             this.rsl.AutoSize = true;
-            this.rsl.Location = new System.Drawing.Point(200, 186);
+            this.rsl.Location = new System.Drawing.Point(200, 126);
             this.rsl.Name = "rsl";
-            this.rsl.Size = new System.Drawing.Size(35, 13);
+            this.rsl.Size = new System.Drawing.Size(0, 13);
             this.rsl.TabIndex = 10;
-            this.rsl.Text = "label1";
             // 
             // Form1
             // 
@@ -252,6 +219,7 @@
             this.Controls.Add(this.armgb);
             this.Controls.Add(this.genderbg);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Расчёт пенсии";
             this.genderbg.ResumeLayout(false);
             this.genderbg.PerformLayout();
@@ -274,11 +242,8 @@
         private System.Windows.Forms.TextBox armtime;
         private System.Windows.Forms.Label armtimelb;
         private System.Windows.Forms.GroupBox tmwrkgb;
-        private System.Windows.Forms.Button addbt;
         private System.Windows.Forms.TextBox multilbtb;
         private System.Windows.Forms.Label multilb;
-        private System.Windows.Forms.TextBox medictimetb;
-        private System.Windows.Forms.Label medictimelb;
         private System.Windows.Forms.TextBox worktimetb;
         private System.Windows.Forms.Label worktimelb;
         private System.Windows.Forms.Button resoultbtn;
